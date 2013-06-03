@@ -1,0 +1,35 @@
+.MJaxMCPanel{
+    height:100%;
+    width:100%;
+    border:thin grey solid;
+}
+.MJaxMCPanel_row{
+    height: 100%;
+    margin-left:0Px;
+}
+.MJaxMCColumn{
+    border-right:thin grey solid;
+    border-left:thin grey solid;
+    overflow:hidden;
+    height:100%;
+}
+.MJaxMCColumn_inner{
+    height:100%;
+}
+.MJaxMCOption{
+    min-height:20Px;
+    border-bottom:thin grey solid;
+    padding:5Px;
+    cursor: pointer;
+}
+.MJaxMCOption:hover{
+    background: ghostwhite;
+}
+.mlc-disabled{
+   background: #444444;
+   color:white;
+   cursor: not-allowed;
+}
+.mlc-disabled:hover{
+    background: #444444;
+}
